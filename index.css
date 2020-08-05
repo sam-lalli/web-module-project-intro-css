@@ -1,0 +1,128 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+    box-sizing:border-box;
+}
+
+html{
+    font-size:62.5%;
+}
+body{
+    line-height:2;
+    font-size:1.5rem;
+    font-family: 'Roboto Mono', monospace;
+    margin:0, auto;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Chelsea Market', cursive;
+    font-size:5rem;
+}
+header,nav{
+    text-align: center;
+}
+.plan{
+    font-size:1.5rem;
+    background-color:#FF764E;
+    margin-right:50px;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-bottom: 2%;
+    color: white;
+    margin-top:5%;
+}
+.Learn{
+    font-size:1.5rem;
+    background-color:#5ED3EB;
+    margin-right: 50px;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-bottom: 5%;
+    color: white;
+    margin-top:5%;
+}
+.Involved{
+    font-size:1.5rem;
+    background-color:#FFCD69;
+    margin-right:50px;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    color: white; 
+    margin-top:8%;
+}
+
+.section-one{
+    display:inline-block;
+    text-align: center;
+    margin-left:18%;
+}
+.valley{
+    height:200px;
+    width:200px;
+    border-radius: 50%;
+}
+
+.text{
+    text-align: center;
+    display:inline-block;
+}
+#section-two{
+    background-color: #DDB9A3;
+    color:white;
+    text-align: center;
+    margin-top:5%;
+    margin-bottom:2%;
+    margin-left: 12%;
+    margin-right:12%;
+}
+#section-three{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 30%;
+    margin-bottom: 10%;
+}
+.campfire{
+    height:40%;
+    width: 40%;
+}
+.bus{
+    height:40%;
+    width: 40%;
+}
+
+.mountain{
+    height:400px;
+    width:100%;
+}
+footer{
+    background-color: #F9E7DC;
+}
